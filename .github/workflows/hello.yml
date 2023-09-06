@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Submit PURLs
-        uses: hmaurer/haskell-resources@master
+        uses: hmaurer/haskell-resources/hello@master
         with:
           purls: |-
             pkg:npm/react@1.2.3
